@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Test youtube api</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" media="screen">
+    <script src="auth.js"></script>
+    <script src="search.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+
+</head>
+
+<body>
+
+    <a class="trailer" href="http://www.youtube.com/watch?v=zSWdZVtXT7E&amp;autoplay=1">Trailer d'Interstellar</a>
+    <input id="query" value='cats' type="text" />
+    <button onclick="search()">Search</button>
+    <pre id="response"></pre>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
