@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     $(".trailer").click(function(e) {
+
         e.preventDefault();
         $.fancybox({
             'padding': 0,
