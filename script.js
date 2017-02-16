@@ -5,13 +5,13 @@ $(document).ready(function() {
         e.preventDefault();
         $.fancybox({
             'padding': 0,
-            'type': 'swf',
+            'width': '70%',
+            'height': '70%',
             'href': this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+            'type': 'swf',
             'swf': {
-                'wmode': 'transparent',
-                'allowfullscreen': 'true'
-            }
+                'allowfullscreen':'true','wmode': 'transparent' }
         });
+        return false;
     });
-
 });
